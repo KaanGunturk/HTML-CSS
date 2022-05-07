@@ -1,0 +1,42 @@
+header,
+footer {
+  display: flex;
+  background-color: gray;
+  padding: 30px;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+footer p {
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+.anasayfa {
+  background-color: bisque;
+}
+.personeller {
+  background-color: cadetblue;
+}
+.oneriler {
+  background-color: aqua;
+}
+.hakkimizda {
+  background-color: coral;
+}
+.anasayfa img {
+  width: 15%;
+  height: 15%;
+}
+.resimler img{
+  width: 15%;
+  height: 15%;
+}
+.resimler{
+  display: flex;
+}
